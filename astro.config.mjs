@@ -8,5 +8,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   output: 'server',
   integrations: [tailwind(), react()],
-  adapter: node()
+  adapter: node(),
+  site: "https://ntthanhvy.github.io"
 });
