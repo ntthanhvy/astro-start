@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vscode/
+Dockerfile
+.dockerignore
+
+.env
+.env.*
+
+# git
+.gitignore
+.git
+.github
